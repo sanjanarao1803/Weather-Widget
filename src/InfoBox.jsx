@@ -42,7 +42,7 @@ export default function InfoBox({info}){
                             <p>Humidity={info.humidity}&deg;C</p>
                             <p>Min Temp={info.tempMin}&deg;C</p>
                             <p>Max Temp={info.tempMax}&deg;C</p>
-                            <p>The weather can be described as <i>{info.weather}</i> and feels like {info.feelsLike}&deg;C</p>
+                            <p>The weather can be described as <i>{info.wether}</i> and feels like {info.feelsLike}&deg;C</p>
                         </Typography>
                     </CardContent>
                 </Card>
